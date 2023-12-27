@@ -10,3 +10,7 @@ pyspellchecker
 googletrans==4.0.0-rc1
 mtranslate
 scikit-learn
+opencv-python-headless
+keras
+joblib
+tensorflow
