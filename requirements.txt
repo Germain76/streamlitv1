@@ -1,0 +1,8 @@
+pandas
+opencv-python-headless
+numpy
+streamlit
+keras
+joblib
+nltk
+tensorflow
