@@ -6,3 +6,6 @@ keras
 joblib
 nltk
 tensorflow
+matplotlib
+langdetect
+scikit-learn
