@@ -10,6 +10,8 @@ from keras.models import load_model
 from nltk.tokenize import word_tokenize
 from sklearn.metrics import f1_score
 import numpy as np
+import nltk
+nltk.download('punkt')
 
 def set_random_line():
     st.session_state.selected_line = randint(0, len(backend.df))
