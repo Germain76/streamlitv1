@@ -17,8 +17,7 @@ plotly
 langdetect
 six==1.15.0
 typing-extensions==3.7.4
-tensorflow==2.15
-keras==2.6.0
+keras
 httpx==0.13.3
 idna==2.* 
 tensorflow==2.14.0
