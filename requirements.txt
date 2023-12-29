@@ -1,5 +1,5 @@
 pandas
-numpy
+
 nltk
 spacy
 matplotlib
@@ -15,6 +15,10 @@ joblib
 tensorflow
 plotly
 langdetect
-tensorflow==2.6.0
-protobuf==3.20.0
 keras==2.6.0
+tensorflow==2.6.0
+numpy==1.19.2
+six==1.15.0
+typing-extensions==3.7.4
+protobuf==3.19.6
+idna==2.*
