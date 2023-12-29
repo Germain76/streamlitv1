@@ -7,13 +7,13 @@ from cv2 import imread, resize, cvtColor, IMREAD_COLOR, COLOR_BGR2RGB
 from numpy import argmax
 import streamlit as st
 from numpy import expand_dims
-#from keras.saving import load_model
+from keras.saving import load_model
 from numpy import zeros, float32
 import os
 import joblib
 import nltk
 
-#from keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.sequence import pad_sequences
 
 # Data ingestion functions - Cached for optimization
 @st.cache_data
