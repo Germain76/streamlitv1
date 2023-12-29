@@ -16,7 +16,6 @@ tensorflow
 plotly
 langdetect
 keras
-tensorflow
 numpy
 six==1.15.0
 typing-extensions
