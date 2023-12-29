@@ -1,3 +1,4 @@
+pip install --upgrade pip
 pandas
 numpy
 nltk
@@ -11,10 +12,10 @@ googletrans==4.0.0-rc1
 mtranslate
 scikit-learn
 opencv-python-headless
-keras
 joblib
 tensorflow
 plotly
 langdetect
-tensorboard==2.8.0
-protobuf==4.23.0
+tensorflow==2.6.0
+protobuf==3.20.0
+keras==2.6.0
