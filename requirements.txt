@@ -20,6 +20,6 @@ typing-extensions==3.7.4
 tensorflow==2.13
 keras==2.6.0
 tensorboard==2.15.1  
-protobuf==3.21.0
+protobuf==4.0.0rc1
 httpx==0.13.3
 idna==2.* 
