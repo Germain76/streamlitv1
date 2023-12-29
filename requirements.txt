@@ -16,5 +16,5 @@ joblib
 tensorflow
 plotly
 langdetect
-tensorboard=2.15 
-protobuf=3.19.6
+tensorboard==2.8.0
+protobuf==4.23.0
