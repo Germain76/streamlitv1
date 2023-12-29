@@ -163,4 +163,7 @@ def df_to_raw_images(df):
 df=load_processed_df()
 #C'est pour charger un dataset plus petit au niveau des images 
 df1 = df.iloc[0:99,]
+#df2 pour le préprocessing des images 
+df2 = df.iloc[[84312,]]
+df2 = pd.concat([df1,df2],axis=0)
 #nltk.download('punkt')

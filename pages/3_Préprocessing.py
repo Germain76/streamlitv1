@@ -147,7 +147,7 @@ with images_preprocessing:
 
 	# Widget
 	st.markdown("Prenons la ligne **84 312** comme exemple. La majorité de l'image est occupée par des **bordures blanches**.")
-	st.dataframe(backend.df[backend.df["imageid"] == 482917])
+	st.dataframe(backend.df2[backend.df2["imageid"] == 482917])
 	col, _ = st.columns([2, 2])
 	with col:
 		with st.container(border=True):
