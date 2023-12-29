@@ -175,22 +175,6 @@ with demo:
                     st.success("&ensp;Prédiction correcte ✔")
                 else:
                     st.error("Prédiction incorrecte ❌")
-            #LSTM
-            st.markdown("**LSTM**")
-            pred = np.argmax(backend.predict_with_lstm([line['description']]), axis=1)
-            pred = backend.load_label_encoder().inverse_transform(pred)[0]
-            with st.container(border=True):
-                col1, col2, col3 = st.columns(3)
-            with col1:
-                st.metric("Prédiction", str(pred))
-            with col2:
-                st.metric("Classe réelle", line["prdtypecode"])
-            with col3:
-                st.markdown("""<p style="height:0px"></p>""",unsafe_allow_html=True)
-                if pred == line["prdtypecode"]:
-                    st.success("&ensp;Prédiction correcte ✔")
-                else:
-                    st.error("Prédiction incorrecte ❌")
 
 with dl_models:
     st.markdown("Nous avons aussi testé **deux modèles de deep learning** pour classifier le texte.")
