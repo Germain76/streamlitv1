@@ -27,7 +27,7 @@ def prev_image():
 
 def load_new_images():
     st.session_state.img_id = 0
-    st.session_state.img_exploration_data = backend.fetch_unprocessed_images(backend.df_to_raw_images(backend.df.sample(n=10, random_state=np.random.randint(0, 9999))).to_list())
+    st.session_state.img_exploration_data = backend.fetch_unprocessed_images(backend.df_to_raw_images(backend.df.sample(n=10, random_state=np.random.randint(0, 1))).to_list())
 
 ###############################################################################
 #                                 GRAPHIQUES                                  #
@@ -149,7 +149,8 @@ def chart4():
 if 'img_id' not in st.session_state:
     st.session_state.img_id = 0
 if "img_exploration_data" not in st.session_state:
-    st.session_state.img_exploration_data = backend.fetch_unprocessed_images(backend.df_to_raw_images(backend.df.sample(n=10)).to_list())
+
+    st.session_state.img_exploration_data = backend.fetch_unprocessed_images(backend.df_to_raw_images(backend.df1.sample(n=10)).to_list())
 df_no_processing = backend.load_df_no_processing()
 
 ###############################################################################
