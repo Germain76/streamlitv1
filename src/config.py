@@ -2,7 +2,7 @@
 
 # Images
 preprocessed_img_folder = "D:/Mathis one/Formations/Datascientest/Projet Rakuten/production/data/preprocessed images/{}"
-raw_img_folder = "D:/Mathis one/Formations/Datascientest/Projet Rakuten/data/images/image_train"
+raw_img_folder = "data/100imagetrain"
 
 # Dataframes
 dataframe_path="data/ma_base.csv"
