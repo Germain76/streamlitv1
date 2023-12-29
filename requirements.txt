@@ -17,7 +17,7 @@ plotly
 langdetect
 six==1.15.0
 typing-extensions==3.7.4
-tensorflow==2.13
+tensorflow==2.15
 keras==2.6.0
 tensorboard==2.15.1  
 protobuf==4.0.0rc1
